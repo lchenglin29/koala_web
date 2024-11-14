@@ -4,18 +4,33 @@ title: 'KoBlog'
 theme: 'PaperMod'
 
 params:
+  ShowToc: true
+  ShowBreadCrumbs: true
   homeInfoParams:
     Title: "哈囉owo" 
     Content: "你好！歡迎來到吳偉雄亂丟奇怪東西的地方w"
+  
+  profileMode:
+    enabled: true
+    title: "吳偉雄" 
+    subtitle: "奇怪的人\n居然用手機寫程式"
+    imageUrl: "koala.jpg" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: 文章列表
+        url: "/archives"
+      - name: 查找文章
+        url: "/search"
 
-  socialIcons: # optional
+  socialIcons:
     - name: "github"
-      url: "<link>"
+      url: "https://github.com/lchenglin29"
     - name: "discord"
-      url: "<link2>"
+      url: "https://discord.gg/za5a4UfGhE"
     - name: "instagram"
-      url: "link"
-
+      url: "https://www.instagram.com/koala._.lol/"
 menu:
   main:
     - identifier: archives
@@ -30,3 +45,9 @@ menu:
       name: ！重要網站！
       url: https://youtu.be/dQw4w9WgXcQ?si=_EYakKL5xEdTn5S_
       weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON 
