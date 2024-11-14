@@ -5,5 +5,3 @@ url: "/archives/"
 summary: archives
 ---
 
-# Archives
-

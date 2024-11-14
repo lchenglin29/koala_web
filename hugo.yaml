@@ -1,12 +1,20 @@
 baseURL: 'https://koala29.vercel.app/'
 languageCode: 'zh-TW'
 title: 'KoBlog'
+description: "吳偉雄亂丟文章的地方"
 theme: 'PaperMod'
 
+taxonomies:
+  category: "categories"
+  tag: "tags"
+
 params:
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
   relativeURLs: true
   ShowToc: true
   ShowBreadCrumbs: true
+  ShowShareButtons: true
   homeInfoParams:
     Title: "哈囉owo" 
     Content: "你好！歡迎來到吳偉雄亂丟奇怪東西的地方w"
@@ -17,8 +25,8 @@ params:
     subtitle: "奇怪的人\n居然用手機寫程式"
     imageUrl: "koala.jpg" # optional
     imageTitle: "<title of image as alt>" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
+    imageWidth: 200 # custom size
+    imageHeight: 200 # custom size
     buttons:
       - name: 文章列表
         url: "/archives"
