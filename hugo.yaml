@@ -4,6 +4,7 @@ title: 'KoBlog'
 theme: 'PaperMod'
 
 params:
+  relativeURLs: true
   ShowToc: true
   ShowBreadCrumbs: true
   homeInfoParams:
