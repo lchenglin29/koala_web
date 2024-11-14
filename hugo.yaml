@@ -1,0 +1,32 @@
+baseURL: 'https://koala29.vercel.app/'
+languageCode: 'zh-TW'
+title: 'KoBlog'
+theme: 'PaperMod'
+
+params:
+  homeInfoParams:
+    Title: "哈囉owo" 
+    Content: "你好！歡迎來到吳偉雄亂丟奇怪東西的地方w"
+
+  socialIcons: # optional
+    - name: "github"
+      url: "<link>"
+    - name: "discord"
+      url: "<link2>"
+    - name: "instagram"
+      url: "link"
+
+menu:
+  main:
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 10
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 20
+    - identifier: rickroll
+      name: ！重要網站！
+      url: https://youtu.be/dQw4w9WgXcQ?si=_EYakKL5xEdTn5S_
+      weight: 30
