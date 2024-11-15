@@ -22,7 +22,7 @@ params:
   profileMode:
     enabled: true
     title: "吳偉雄" 
-    subtitle: "奇怪的人\n居然用手機寫程式"
+    subtitle: "奇怪的人居然用手機寫程式"
     imageUrl: "koala.jpg" # optional
     imageTitle: "<title of image as alt>" # optional
     imageWidth: 200 # custom size
@@ -43,16 +43,16 @@ params:
 menu:
   main:
     - identifier: archives
-      name: archives
+      name: 文章列表
       url: /archives/
       weight: 10
-    - identifier: about
-      name: about
-      url: /about/
+    - identifier: tags
+      name: 標籤列表
+      url: /tags/
       weight: 20
-    - identifier: rickroll
-      name: ！重要網站！
-      url: https://youtu.be/dQw4w9WgXcQ?si=_EYakKL5xEdTn5S_
+    - identifier: about
+      name: 關於我
+      url: /about/
       weight: 30
 
 outputs:
