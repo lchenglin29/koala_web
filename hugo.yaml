@@ -1,6 +1,6 @@
 baseURL: 'https://koala29.vercel.app/'
 languageCode: 'zh-TW'
-title: 'KoBlog'
+title: 'KoBlog | 吳偉雄的部落格'
 description: "吳偉雄亂丟文章的地方"
 theme: 'PaperMod'
 
@@ -22,7 +22,7 @@ params:
   profileMode:
     enabled: true
     title: "吳偉雄" 
-    subtitle: "奇怪的人居然用手機寫程式"
+    subtitle: "奇怪的人  \n居然用手機寫程式"
     imageUrl: "koala.jpg" # optional
     imageTitle: "<title of image as alt>" # optional
     imageWidth: 200 # custom size
