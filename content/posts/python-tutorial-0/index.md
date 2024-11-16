@@ -2,6 +2,7 @@
 date = '2024-11-15T07:04:10Z'
 draft = false
 title = 'Python教學Ep0 | 安裝'
+summary= '學習Python的第一步：安裝環境'
 tags = ['python', '程式', '教學']
 categories = ['科技','程式']
 +++

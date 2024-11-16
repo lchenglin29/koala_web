@@ -9,6 +9,9 @@ taxonomies:
   tag: "tags"
 
 params:
+  disqusShortname: "ko-blog"
+  ShowReadingTime: true
+  comments: true
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   relativeURLs: true
@@ -22,16 +25,18 @@ params:
   profileMode:
     enabled: true
     title: "吳偉雄" 
-    subtitle: "奇怪的人  \n居然用手機寫程式"
+    subtitle: "奇怪的人owo  \n居然用手機寫程式"
     imageUrl: "koala.jpg" # optional
     imageTitle: "<title of image as alt>" # optional
     imageWidth: 200 # custom size
     imageHeight: 200 # custom size
     buttons:
-      - name: 文章列表
-        url: "/archives"
       - name: 查找文章
         url: "/search"
+      - name: Python教學
+        url: "/tags/python/"
+      - name: 雜談
+        url: "/tags/雜談/"
 
   socialIcons:
     - name: "github"
@@ -50,11 +55,17 @@ menu:
       name: 標籤列表
       url: /tags/
       weight: 20
+    - identifier: categories
+      name: 分類列表
+      url: /categories/
+      weight: 30
     - identifier: about
       name: 關於我
       url: /about/
-      weight: 30
-
+      weight: 40
+services:
+  disqus:
+    shortname: ko-blog
 outputs:
   home:
     - HTML
