@@ -9,6 +9,7 @@ taxonomies:
   tag: "tags"
 
 params:
+  showCover: true
   disqusShortname: "ko-blog"
   ShowReadingTime: true
   comments: true
@@ -18,6 +19,11 @@ params:
   ShowToc: true
   ShowBreadCrumbs: true
   ShowShareButtons: true
+  cover:
+    hidden: false 
+    hiddenInList: false 
+    hiddenInSingle: false 
+    linkFullImages: true
   homeInfoParams:
     Title: "哈囉owo" 
     Content: "你好！歡迎來到吳偉雄亂丟奇怪東西的地方w"

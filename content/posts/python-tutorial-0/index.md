@@ -3,11 +3,13 @@ date = '2024-11-15T07:04:10Z'
 draft = false
 title = 'Python教學Ep0 | 安裝'
 summary= '學習Python的第一步：安裝環境'
+author = '吳偉雄'
 tags = ['python', '程式', '教學']
 categories = ['科技','程式']
+cover = {image = '/images/cover.jpg',  relative = true  }
 +++
 > ***每個天才都有一個HelloWorld***  
-> — 忘記是誰說的了
+> *— 忘記是誰說的了*
 ## 前言 | 為什麼要寫教學
 *其實我Python不強，~~真正強的是ChatGPT~~*
 

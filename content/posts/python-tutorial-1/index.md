@@ -4,6 +4,8 @@ draft = false
 title = 'Python教學Ep1 | 你好，世界！'
 tags = ['python', '程式', '教學']
 categories = ['科技','程式']
+author = '吳偉雄'
+cover = {image = '/images/cover.jpg',  relative = true  }
 +++
 
 > *你好，世界！~~這是我統治你們的開端~~*
