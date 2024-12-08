@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/tags/:path*", "destination": "/tags/:path*" }
+    {
+      "source": "/tags/:tag",
+      "destination": "/tags/:tag/index.html"
+    }
   ]
 }
