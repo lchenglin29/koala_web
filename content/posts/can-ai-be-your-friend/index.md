@@ -1,6 +1,6 @@
 +++
 date = '2024-11-16T17:38:47Z'
-draft = false
+draft = true
 title = 'AI也能當你的朋友嗎？'
 author = 'Oksana'
 tags = ['AI', '人工智慧', '科技', '朋友', 'Oksana']
