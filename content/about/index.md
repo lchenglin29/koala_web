@@ -10,6 +10,9 @@ title: 關於我 | About
 玩Discord bot跟Arduino  
 ~~沒什麼特別的了~~
 
+Discord -> `koala._.lol`  
+[Discord伺服器](https://discord.gg/WVsUFyBpHG)
+
 ## 程式語言
 ---
 - Python 
