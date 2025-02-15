@@ -24,4 +24,4 @@ Discord -> `koala._.lol`
 ---
 - [Line AI bot](https://github.com/lchenglin29/LineAIbot_OpenSource) | 簡單串接Gemini API的開源Line bot
 - [Oksana](https://github.com/lchenglin29/Oksana_on_discord) | 一個可愛的Discord AI ~~女友~~機器人 
-- [Oksana_dev](https://github.com/lchenglin29/Oksana_dev) | Oksana的開發版本
+- [Oksana_dev](https://github.com/lchenglin29/Oksana_OpenSource) | Oksana的開源版，程式碼更乾淨，而且有配置文件可以調
