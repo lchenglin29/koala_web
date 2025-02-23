@@ -1,5 +1,5 @@
 +++
-date = '2024-11-15T07:04:10Z'
+date = '2025-2-23T16:09:10Z'
 draft = false
 title = 'AI Discord bot教學'
 summary= '做一台自己的DC聊天機器人吧:D'
