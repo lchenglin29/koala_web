@@ -1,4 +1,13 @@
-# AI Discord bot教學
++++
+date = '2024-11-15T07:04:10Z'
+draft = false
+title = 'AI Discord bot教學'
+summary= '做一台自己的DC聊天機器人吧:D'
+author = '吳偉雄'
+tags = ['python', '程式', '教學','discord']
+categories = ['科技','程式']
+cover = {image = '/images/cover.jpg',  relative = true  }
++++
 > 做一台自己的DC聊天機器人吧:D
 
 > ❗本篇教學的程式採用我已經寫好丟在GitHub上  
@@ -14,4 +23,4 @@
 詳細可以參照儲存庫的[說明文件](https://github.com/lchenglin29/Oksana_OpenSource/blob/main/README.md)  
 當然這篇文章也會大概說一下怎麼改
 
-我假設讀者們都已安裝了Python與VScode（或其他習慣的編輯器），若無，可以參考[我寫的文章](/posts/python-tutorial-0/index.md)
+我假設讀者們都已安裝了Python與VScode（或其他習慣的編輯器），若無，可以參考[我寫的文章](/posts/python-tutorial-0/)
